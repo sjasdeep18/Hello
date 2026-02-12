@@ -1,0 +1,45 @@
+body {
+  background-color: #1c1c1c;
+}
+
+#Box {
+  max-width: 350px;
+  margin: 30px auto;
+  padding: 30px 120px 20px;
+  background-color: #2a2a2a;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#greeting {
+  color: rgb(212, 175, 55);
+  font-size: 4em;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+  white-space: nowrap;
+}
+
+#okBtn {
+  display: block;
+  margin: 20px auto;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px 40px;
+  font-size: 2em;
+  background-color: rgb(212, 175, 55);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition:
+    background-color 0.5s,
+    transform 0.5s;
+}
+
+#okBtn:hover {
+  background-color: #bb921f;
+}
+
+#aura2 {
+  display: block;
+  margin: 30px auto;
+  max-width: 600px;
+}
