@@ -4,6 +4,8 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 800,
+    fullscreenable: false,
+    resizable: false,
   });
 
   win.loadFile("view1.html");
